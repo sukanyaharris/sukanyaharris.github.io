@@ -194,25 +194,6 @@ li{
     display: block;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 8px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 45%;
-    padding: 0 6px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    margin-bottom: 8px;
-}
 /*Start footer*/
 .copyright{
     width: 100%;
