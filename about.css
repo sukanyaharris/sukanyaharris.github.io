@@ -17,6 +17,74 @@ body{
     background-size: cover;
 }
 
+section{
+    padding: 6rem 0;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+img{
+    width: 50%;
+}
+
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section-heading h1{
+    font-size: 7rem;
+    font-family: "The Historia Demo", sans-serif;
+    color: #A1FCDF;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.section-heading h1::before,
+.section-heading h1::after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(7,7,10,0.75);
+}
+
+.section-heading h1::before{
+    width: 10rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading h1::after{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
+}
+
+.section-heading h6{
+    font-family: "Futura BdCn BT", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.has-margin-right{
+    margin-right: 5rem;
+}
+
 /*Start header*/
 header{
     width: 100%;
@@ -193,7 +261,31 @@ li{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/*body */
+.background .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.background-deatils{
+    color: #A1FCDF;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+
+.background-heading h1{
+    font-family: "The Historia Demo", sans-serif;
+    font-size: 10rem;
+    opacity: .5;
+}
+
+.profile-img{
+    flex: 1;
+    margin-right: 5rem;
+}
 /*Start footer*/
 .copyright{
     width: 100%;
