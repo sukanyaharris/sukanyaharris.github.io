@@ -262,6 +262,27 @@ li{
     display: block;
 }
 /*body */
+
+.about-heading{
+    color: #A1FCDF;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+    margin-right: 3rem;
+}
+.about-heading h1{
+    font-family: "The Historia Demo", sans-serif;
+    font-size: 10rem;
+    opacity: .5;
+}
+
+.about-heading h6{
+    font-family: "The Historia Demo", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 .background .container{
     display: flex;
     align-items: center;

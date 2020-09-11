@@ -37,7 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.game_demo.html">
+  <component name="RunManager" selected="JavaScript Debug.about.html">
     <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/SukanyaHarris-Website/about.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -55,9 +55,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.game_demo.html" />
         <item itemvalue="JavaScript Debug.portfolio.html" />
-        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.blog1.html" />
       </list>
@@ -75,6 +75,7 @@
       <workItem from="1599581244427" duration="3013000" />
       <workItem from="1599798299075" duration="696000" />
       <workItem from="1599846561156" duration="2888000" />
+      <workItem from="1599861989653" duration="319000" />
     </task>
     <servers />
   </component>
