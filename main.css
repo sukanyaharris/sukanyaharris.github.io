@@ -70,7 +70,7 @@ img{
     bottom: -0.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #E7C8DD;
+    background-color: rgba(7,7,10,0.75);
 }
 
 .section-heading h1::before{
@@ -304,6 +304,7 @@ li{
     font-family: "The Historia Demo", sans-serif;
     font-size: 2rem;
     font-weight: 300;
+    color: #E7C8DD;
 }
 
 .profile-img{
