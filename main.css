@@ -301,10 +301,9 @@ li{
 }
 
 .about-heading h6{
-    font-family: "Yellowtail", cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: 400;
 }
 
 .profile-img{
@@ -313,7 +312,7 @@ li{
 }
 
 .about-details{
-    font-family: "Futura BdCn BT", sans-serif;
+    font-family: 'Kalam', cursive;
     flex: 1;
     color: #A1FCDF;
 }
