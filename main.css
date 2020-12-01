@@ -295,13 +295,13 @@ li{
 }
 
 .about-heading h1{
-    font-family: "Spooky Cat", sans-serif;
+    font-family: "The Historia Demo", sans-serif;
     font-size: 10rem;
     opacity: .5;
 }
 
 .about-heading h6{
-    font-family: "Bangers", sans-serif;
+    font-family: "Futura Bk BT", sans-serif;
     font-size: 2rem;
     font-weight: 300;
 }
@@ -312,7 +312,7 @@ li{
 }
 
 .about-details{
-    font-family: "Kristen ITC", sans-serif;
+    font-family: "Futura BdCn BT", sans-serif;
     flex: 1;
     color: #A1FCDF;
 }
