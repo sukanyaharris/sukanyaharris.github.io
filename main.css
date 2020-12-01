@@ -340,7 +340,7 @@ li{
     font-family: "Futura BdCn BT", sans-serif;
     border-left: 4px solid #00072D;
     border-radius: 5rem;
-    background-color: (0,0,0,0.05);
+);
     margin: 0 auto;
     position: relative;
     padding: 2rem;
@@ -348,6 +348,10 @@ li{
     text-align: left;
     width: 70%;
     min-height: 100vh;
+}
+
+.timeline ul{
+    background-color: #EA526F;
 }
 
 .timeline h1{
