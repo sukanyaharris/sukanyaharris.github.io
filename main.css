@@ -312,7 +312,7 @@ li{
 }
 
 .about-details{
-    font-family: "Futura Bk BT", sans-serif;
+    font-family: "Arfelick Feather", sans-serif;
     flex: 1;
     color: #ADADFF;
 }
@@ -352,7 +352,6 @@ li{
 }
 
 .timeline ul{
-    background-color: #ADADFF;
 }
 
 .timeline h1{
