@@ -301,7 +301,7 @@ li{
 }
 
 .about-heading h6{
-    font-family: "The Historia", sans-serif;
+    font-family: "Bangers", sans-serif;
     font-size: 2rem;
     font-weight: 300;
 }
@@ -312,9 +312,9 @@ li{
 }
 
 .about-details{
-    font-family: "Arfelick Feather Regular", sans-serif;
+    font-family: "Kristen ITC", sans-serif;
     flex: 1;
-    color: #ADADFF;
+    color: #A1FCDF;
 }
 .social-media{
     margin-top: 2rem;
