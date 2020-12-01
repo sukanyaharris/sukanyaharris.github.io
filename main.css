@@ -314,7 +314,7 @@ li{
 .about-details{
     font-family: "Futura Bk BT", sans-serif;
     flex: 1;
-    color: #F49FBC;
+    color: #ADADFF;
 }
 .social-media{
     margin-top: 2rem;
@@ -352,7 +352,7 @@ li{
 }
 
 .timeline ul{
-    
+    color: #ADADFF;
 }
 
 .timeline h1{
