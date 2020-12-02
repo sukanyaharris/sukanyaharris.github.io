@@ -54,8 +54,8 @@ img{
 }
 
 .section-heading h1{
-    font-size: 7rem;
-    font-family: "The Historia Demo", sans-serif;
+    font-size: 5rem;
+    font-family: "Daydream", sans-serif;
     color: #221F33;
     text-transform: uppercase;
     font-weight: 300;
@@ -126,9 +126,9 @@ li{
     margin: 0 2rem;
 }
 .nav-link{
-    font-family: "The Historia Demo", sans-serif;
+    font-family: "Daydream", sans-serif;
     color: #00072D;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 1rem;
 }
 
@@ -259,8 +259,8 @@ li{
 }
 
 .landing-text h1{
-    font-size: 10rem;
-    font-family: "The Historia Demo", sans-serif;
+    font-size: 7rem;
+    font-family: "Daydream", sans-serif;
     background: linear-gradient(to top, #F17A64,#FDEFC1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -269,7 +269,7 @@ li{
 }
 
 .landing-text h6{
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Pixel-Noir', cursive;
     color: #F17A64;
     font-size: 2rem;
     font-weight: lighter;
@@ -295,8 +295,8 @@ li{
 }
 
 .about-heading h1{
-    font-family: "The Historia Demo", sans-serif;
-    font-size: 10rem;
+    font-family: "Daydream", sans-serif;
+    font-size: 7rem;
     opacity: .5;
 }
 
@@ -312,7 +312,7 @@ li{
 }
 
 .about-details{
-    font-family: 'Fugaz One', cursive;
+    font-family: "Pixel-Noir", cursive;
     flex: 1;
     color: #221F33;
 }
@@ -340,8 +340,12 @@ li{
 /*End about*/
 
 /*Start timeline*/
+.timeline h1 {
+    font-family: "Pixel-Noir Caps", cursive;
+}
 .timeline ul{
-    font-family: "Fugaz One", sans-serif;
+    font-family: "Pixel-Noir", sans-serif;
+    font-size: 1rem;
     border-left: 4px solid #00072D;
     border-radius: 5rem;
 );
@@ -419,8 +423,8 @@ form{
 }
 
 form label{
-    font-size: 2.4rem;
-    font-family: "Futura BdCn BT", sans-serif;
+    font-size: 1.4rem;
+    font-family: "Pixel-Noir", sans-serif;
 }
 input,
 select,
@@ -478,7 +482,7 @@ input[type="submit"]:hover{
 
 .copyright p{
     font-size: 2rem;
-    font-family: "Futura BdCn BT", sans-serif;
+    font-family: "Futura Bd BT", sans-serif;
 }
 /*End footer*/
 
