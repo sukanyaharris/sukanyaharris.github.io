@@ -87,7 +87,7 @@ img{
 }
 
 .section-heading h6{
-    font-family: "Fugaz One", cursive;
+    font-family: "Pixel-Noir Skinny", cursive;
     font-size: 2.4rem;
     font-weight: 300;
 }
@@ -475,8 +475,9 @@ input[type="submit"]{
     width: initial;
     background-color: #9E5EB7;
     color: black;
-    font-family: 'Allan', cursive;
-    padding: 1rem 2rem;
+    font-family: 'Pixel-Noir Skinny', cursive;
+    text-align: center;
+    display: inline-block;
     border-radius: .8rem;
     cursor: pointer;
     transition: background-color 0.65s;
@@ -525,13 +526,13 @@ input[type="submit"]:hover{
 /*Start animations*/
 @keyframes pulse {
     0%{
-        box-shadow: 0 0 0 0 rgba(195, 83, 223,0.99);
+        box-shadow: 0 0 0 0 rgba(255, 134, 200,0.99);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(195, 83, 223,0);
+        box-shadow: 0 0 0 2rem rgba(255, 134, 200,0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(195, 83, 223,0);
+        box-shadow: 0 0 0 0 rgba(255, 134, 200,0);
     }
 }
 /*End animations*/
