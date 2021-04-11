@@ -268,9 +268,16 @@ li{
     user-select: none;
 }
 
-.landing-text h6{
+.landing-text .text-1 {
     font-family: 'Pixel-Noir', cursive;
     color: #F17A64;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.landing-text .text-1 span {
+    font-family: 'Pixel-Noir', cursive;
+    color: #BB2B11;
     font-size: 2rem;
     font-weight: lighter;
 }

@@ -23,4 +23,11 @@ $(document).ready(function () {
         duration: 1800
 
     });
+
+    var typed = new Typed(".typing", {
+        strings: ["Video Editor","YouTuber", "3D Modeler", "Character Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 });
