@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01788a26-6623-4c0a-af83-d51b9669ab3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/donut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Business Card2_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Business Card_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Harris_002_Final_Remix_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Harris_003_Final_Comp_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Harris_004_Final_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Harris_006_Final_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Harris_006_variations_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SuperPorp_Business Card2_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/SuperPorp_Business Card_lowerRes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/unityScene.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,7 +111,8 @@
       <workItem from="1618055403736" duration="10990000" />
       <workItem from="1622326202895" duration="10538000" />
       <workItem from="1622338371517" duration="2148000" />
-      <workItem from="1622340555602" duration="4770000" />
+      <workItem from="1622340555602" duration="5322000" />
+      <workItem from="1622345980924" duration="1871000" />
     </task>
     <servers />
   </component>
