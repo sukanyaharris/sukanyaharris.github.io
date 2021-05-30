@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01788a26-6623-4c0a-af83-d51b9669ab3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/donut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Business Card2_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Business Card_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Harris_002_Final_Remix_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Harris_003_Final_Comp_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Harris_004_Final_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Harris_006_Final_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Harris_006_variations_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SuperPorp_Business Card2_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SuperPorp_Business Card_lowerRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/unityScene.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
@@ -26,16 +40,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gahPnlz5PTAw1sZkrvCjepBvet" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Desktop/Personal Portfolio Website [CodingNepal]" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Website without Working Contact Form" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,7 +60,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,6 +124,9 @@
       <workItem from="1607319449818" duration="818000" />
       <workItem from="1618040516272" duration="833000" />
       <workItem from="1618055403736" duration="10990000" />
+      <workItem from="1622326202895" duration="10538000" />
+      <workItem from="1622338371517" duration="2148000" />
+      <workItem from="1622340555602" duration="4770000" />
     </task>
     <servers />
   </component>
@@ -123,5 +143,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

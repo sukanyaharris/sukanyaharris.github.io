@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #00072D;
 }
 
@@ -55,10 +55,10 @@ img{
 
 .section-heading h1{
     font-size: 5rem;
-    font-family: "Daydream", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #221F33;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
     position: relative;
     margin-bottom: 1rem;
 }
@@ -87,9 +87,10 @@ img{
 }
 
 .section-heading h6{
-    font-family: "Pixel-Noir Skinny", cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2.4rem;
-    font-weight: 300;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .has-margin-right{
@@ -126,9 +127,10 @@ li{
     margin: 0 2rem;
 }
 .nav-link{
-    font-family: "Daydream", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
     color: #00072D;
-    font-size: 2rem;
+    font-size: 50px;
     padding: 1rem;
 }
 
@@ -205,7 +207,7 @@ li{
     outline: none;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: "The Historia Demo", sans-serif; /* Important for vertical align on mobile phones */
+    font-family: 'Josefin Sans', sans-serif; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
@@ -228,7 +230,7 @@ li{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-family: "Futura BdCn BT", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.4rem;
     float: none;
     color: #F17A64;
@@ -259,8 +261,8 @@ li{
 }
 
 .landing-text h1{
-    font-size: 7rem;
-    font-family: "Daydream", sans-serif;
+    font-size: 100px;
+    font-family: "Caveat", cursive;
     background: linear-gradient(to top, #F17A64,#FDEFC1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -269,14 +271,13 @@ li{
 }
 
 .landing-text .text-1 {
-    font-family: 'Pixel-Noir', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     color: #F17A64;
-    font-size: 2rem;
-    font-weight: lighter;
+    font-size: 50px;
 }
 
 .landing-text .text-1 span {
-    font-family: 'Pixel-Noir Caps', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     color: #221F33;
     font-weight: 500;
 }
@@ -301,15 +302,16 @@ li{
 }
 
 .about-heading h1{
-    font-family: "Daydream", sans-serif;
-    font-size: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
     opacity: .5;
 }
 
 .about-heading h6{
-    font-family: 'Fugaz One', cursive;
-    font-size: 4rem;
-    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
 }
 
 .profile-img{
@@ -318,9 +320,14 @@ li{
 }
 
 .about-details{
-    font-family: "Pixel-Noir", cursive;
+    font-family: 'Josefin Sans', sans-serif;
     flex: 1;
     color: #221F33;
+    position: center;
+}
+.about-details p {
+    font-weight: 600;
+    font-size: 30px;
 }
 .social-media{
     margin-top: 2rem;
@@ -347,10 +354,16 @@ li{
 
 /*Start timeline*/
 .timeline h1 {
-    font-family: "Pixel-Noir Caps", cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    opacity: 0.5;
 }
 .timeline ul{
-    font-family: "Pixel-Noir", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
     font-size: 1rem;
     border-left: 4px solid #00072D;
     border-radius: 5rem;
@@ -366,14 +379,6 @@ li{
 
 .timeline ul{
     background: rgba(253, 239, 193, 0.5);
-}
-
-.timeline h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    opacity: 0.5;
 }
 
 .timeline .date{
@@ -423,19 +428,6 @@ li{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

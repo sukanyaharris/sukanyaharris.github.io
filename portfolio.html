@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <meta charset = 'utf-8'>
+    <title> Portfolio | Sukanya Harris </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Caveat+Brush&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "portfolio.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/5.png"/>
 </head>
 <body>
 <header>
@@ -20,80 +21,137 @@
             <li>
                 <a href="index.html" class="nav-link">Home</a>
             </li>
-            <!--<li>
-                <a href="about.html" class="nav-link">About</a>
-            </li>-->
+            <li>
+                <a href="index.html" class="nav-link">About</a>
+            </li>
             <li>
                 <a href="portfolio.html" class="nav-link">Portfolio</a>
             </li>
             <li>
-                <a href="#experience" class="nav-link">Experience</a>
+                <a href="index.html" class="nav-link">Experience</a>
             </li>
             <li>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="index.html" class="nav-link">Contact</a>
             </li>
-            <!--<li>
-                <div class="dropdown">
-                    <button class="dropbtn">Blog
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">My Unpopular Opinion</a>
-                        <a href="#">Hollywood Needs To Be Stopped</a>
-                        <a href="#">Blog List</a>
-                    </div>
-                </div>
-            </li> -->
+            <li>
+                <a href="images/unityScene.html" class="nav-link">Unity Scene</a>
+            </li>
         </ul>
     </nav>
 </header>
-    <div class="landing-text">
-        <h1>
-            My Portfolio
-        </h1>
-        <p>Includes class and personal projects</p>
+<h1><a href="index.html">SUKANYA HARRIS</a></h1>
+<h3>Design + Tech, Selected Work ↓ </h3>
 
-    </div>
-    <div class="row">
-        <div class="column">
-            <img src="images/Expression.jpg">
-            <img src="images/Backing_Postcard.jpg">
-            <img src="images/Mochi_Moon_businessCard_2.0_with_border.jpg">
-            <img src="images/power%20trio%20with%20text.png">
-            <img src="images/Midoriya.jpg">
-            <img src="images/Sailor_Mars.jpg">
-            <img src="images/Starfire.jpg">
-            <img src="images/Agatha%20Character%20Design.jpg">
-        </div>
-        <div class="column">
-            <img src="images/Cora.jpg">
-            <img src="images/Giovanna%20(final).jpg">
-            <img src="images/Elenora%20(final).jpg">
-            <img src="images/profile%20pic.jpg">
-            <img src="images/Todoroki_mha.jpg">
-            <img src="images/Bakugo%20Shirt.jpg">
-            <img src="images/Tokyo%20Ghoul.jpg">
-        </div>
-        <div class="column">
-            <img src="images/RPG%20Poster.jpg">
-            <img src="images/donut_texture.png">
-            <img src="images/characters.jpg">
-            <img src="images/white%20house.jpg">
-            <img src="images/Happy%20Town.jpg">
-            <img src="images/Mayor%20Orange.jpg">
-            <img src="images/Elias.jpg">
-            <img src="images/Girl.jpg">
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+    <button class="btn" onclick="filterSelection('Modeling')"> Modeling</button>
+    <button class="btn" onclick="filterSelection('Graphic Design')"> Graphic Design</button>
+    <button class="btn" onclick="filterSelection('Character Design')"> Character Design</button>
+    <button class="btn" onclick="filterSelection('Videos')"> Videos</button>
+</div>
+
+<div class="row">
+    <div class="column Modeling">
+        <div class="content">
+            <img src="images/donut_texture.png" alt="Sprinkle Donut" style="width: 100%">
+            <a href="donut.html"><h4>Sprinkle Donut</h4><p>Made in Blender</p></a>
         </div>
     </div>
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/SuperPorp_Business%20Card_lowerRes.jpg" alt="Super Porp" style="width: 100%">
+            <a href="index.html"><h4>Super Porp Business Card Front</h4><p>Made in Adobe InDesign and Adobe Illustrator</p></a>
         </div>
-        <p>&copy; 2020 Sukanya Harris</p>
-    </footer>
+    </div>
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/SuperPorp_Business%20Card2_lowerRes.jpg" alt="Super Porp" style="width: 100%">
+            <a href="index.html"><h4>Super Porp Business Card Back</h4><p>Made in Adobe InDesign and Adobe Illustrator</p></a>
+        </div>
+    </div>
+    <div class="column Modeling">
+        <div class="content">
+            <img src="images/p1.jpg" alt="Living Room" style="width: 100%">
+            <a href="donut.html"><h4>Living Room</h4><p>Made in Maya</p></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Web%201280%20–%201.png" alt="Super Porp" style="width: 100%">
+            <a href="index.html"><h4>Super Porp Website Design</h4><p>Made in Adobe InDesign, Adobe Illustrator, and Adobe XD</p></a>
+        </div>
+    </div>
+    <div class="column Modeling">
+        <div class="content">
+            <img src="images/p2.jpg" alt="TV" style="width: 100%">
+            <a href="donut.html"><h4>TV CloseUp</h4><p>Made in Maya</p></a>
+        </div>
+    </div>
+    <div class="column Character Design">
+        <div class="content">
+            <img src="images/RPG%20Poster.jpg" alt="Pixel Art" style="width: 100%">
+            <a href="index.html"><h4>Pixel Art of Dungeon Explorer</h4><p>Made in Adobe Photoshop</p></a>
+        </div>
+    </div>
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Harris_006_Final_lowerRes.jpg" alt="Super Porp" style="width: 100%">
+            <a href="index.html"><h4>Super Porp Logo Design</h4><p>Made in Adobe Illustrator</p></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Harris_006_variations_lowerRes.jpg" alt="Super Porp" style="width: 100%">
+            <a href="index.html"><h4>Super Porp Logo Design Variations</h4><p>Made in Adobe Photoshop and Adobe Illustrator</p></a>
+        </div>
+    </div>
+    <div class="column Modeling">
+        <div class="content">
+            <img src="images/p5.jpg" alt="Couch" style="width: 100%">
+            <a href="donut.html"><h4>Blue Couch</h4><p>Made in Maya</p></a>
+        </div>
+    </div>
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Harris_002_Final_Remix_lowerRes.jpg" alt="LMC 2720 | Song of the Sea Redesign" style="width: 100%">
+            <a href="index.html"><h4>Song of the Sea Poster Re-Design for LMC 2720</h4><p>Made in Adobe Photoshop</p></a>
+        </div>
+    </div>
+    <div class="column Modeling">
+        <div class="content">
+            <img src="images/p6.jpg" alt="Evil TV" style="width: 100%">
+            <h4>Evil TV Face</h4><p>Made in Maya</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Harris_003_Final_Comp_lowerRes.jpg" alt="LMC 2720 | Collage of Emotions" style="width: 100%">
+            <a href="index.html"><h4>Collage of Emotions for LMC 2720</h4><p>Made in Adobe Photoshop</p></a>
+        </div>
+    </div>
+    <div class="column Graphic Design">
+        <div class="content">
+            <img src="images/Harris_004_Final_lowerRes.jpg" alt="Painting Color Palatte Re-Design" style="width: 100%">
+            <a href="index.html"><h4>Painting Color Palatte Re-Design for LMC 2720</h4><p>Made in Adobe Illustrator</p></a>
+        </div>
+    </div>
+    <div class="column Videos">
+        <div class="content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/06Wzhgkr3Ho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="index.html"><h4>Why I Hated the End to SVTFOE</h4><p>Edited in Adobe Premiere Pro</p></a>
+        </div>
+    </div>
+</div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="main.js"></script>
-
 </body>
 </html>

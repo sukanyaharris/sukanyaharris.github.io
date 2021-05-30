@@ -1,27 +1,156 @@
 /*Start global*/
 *{
-    margin: 3px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html{
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #00072D;
 }
+
 body{
     width: 100%;
     height: 100%;
+    padding: 20px;
     background: url(images/sitebg.png) no-repeat center fixed;
     background-size: cover;
 }
-
-/*Start header*/
-header{
-    width: 100%;
-    height: 50vh;
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    font-weight: 500;
+    padding: 10px;
+}
+.content h4{
+    font-size: 30px;
+}
+.content p{
+    font-size: 25px;
+}
+.content a {
+    color: #00072D;
+    text-decoration: none;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+/*End global*/
+
+h1{
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: "Caveat Brush", sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+h1 a{
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: "Caveat Brush", sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 8px;
+    text-decoration: none;
+    color: #00072D;
+}
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+    color:#ffa185;
+    display: flex;
+}
+
 .top-nav{
     width: 100%;
     height: 25vh;
@@ -45,9 +174,10 @@ li{
     margin: 0 2rem;
 }
 .nav-link{
-    font-family: "Daydream", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
     color: #00072D;
-    font-size: 3rem;
+    font-size: 50px;
     padding: 1rem;
 }
 
@@ -74,7 +204,7 @@ li{
     justify-content: space-between;
     cursor: pointer;
     z-index: 1500;
-    transition: transform 650ms ease-out;
+    transition: transform 0.65s ease-out;
 }
 
 .menu-toggler.open{
@@ -110,33 +240,6 @@ li{
 .open .bar.end{
     transform: rotate(-450deg) translateX(-.8rem);
 }
-
-.landing-text{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-}
-
-.landing-text h1{
-    font-size: 7rem;
-    font-family: "Daydream", sans-serif;
-    background: linear-gradient(to top, #F17A64,#FDEFC1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 1rem;
-    user-select: none;
-}
-
-.landing-text p{
-    font-family: 'Pixel-Noir', cursive;
-    color: #F17A64;
-    font-size: 2rem;
-    font-weight: lighter;
-}
 /* The dropdown container */
 .dropdown {
     float: left;
@@ -151,13 +254,13 @@ li{
     outline: none;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: "The Historia Demo", sans-serif; /* Important for vertical align on mobile phones */
+    font-family: 'Josefin Sans', sans-serif; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background: linear-gradient(to bottom, #309C7C, #A1FCDF);
+    background: linear-gradient(to bottom, #F17A64, #FDEFC1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
 }
@@ -166,7 +269,7 @@ li{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #00072D;
+    background-color: #F17A64;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -174,10 +277,10 @@ li{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-family: "Futura BdCn BT", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.4rem;
     float: none;
-    color: #309C7C;
+    color: #F17A64;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -186,7 +289,7 @@ li{
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #4C2C69;
+    background-color: #FDEFC1;
 }
 
 /* Show the dropdown menu on hover */
@@ -194,115 +297,5 @@ li{
     display: block;
 }
 
-.row {
-    margin-left: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 8px;
-    margin-right: 200px;
-}
 
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 25%;
-    max-width: 45%;
-    padding: 0 8px;
-}
-
-.column img {
-    margin-top: 4px;
-    vertical-align: middle;
-    width: 100%;
-    margin-bottom: 8px;
-}
-/*Start footer*/
-.copyright{
-    width: 100%;
-    text-align: center;
-    background-color: #C6687A;
-    padding: 2rem 0;
-    position: relative;
-}
-
-.up{
-    position: absolute;
-    width: 5rem;
-    height: 5rem;
-    background-color: #00072D;
-    top: -2.5rem;
-    right: 5rem;
-    border-radius: 100%;
-    display: flex;
-    animation: pulse 2s infinite;
-    cursor: pointer;
-}
-
-.up i{
-    color: #C6687A;
-    font-size: 2rem;
-    margin: auto;
-}
-
-.copyright p{
-    font-size: 2rem;
-    font-family: "Futura BdCn BT", sans-serif;
-}
-/*End footer*/
-@keyframes pulse {
-    0%{
-        box-shadow: 0 0 0 0 rgba(195, 83, 223,0.99);
-    }
-    70%{
-        box-shadow: 0 0 0 2rem rgba(195, 83, 223,0);
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(195, 83, 223,0);
-    }
-}
-/*End animations*/
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    body{
-        background: url(images/sitebg2.jpg) no-repeat center fixed;
-        background-size: cover;
-    }
-    .top-nav{
-        height: 100vh;
-    }
-    .nav-list{
-        flex-direction: column;
-    }
-    li{
-        margin: 2rem 0;
-    }
-    .nav-link{
-        font-size: 4.5rem;
-    }
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .menu-toggler{
-        top: 2rem;
-        right: 2rem;
-    }
-    .landing-text h1{
-        font-size: 8rem;
-    }
-    .landing-text h6{
-        font-size: 1.4rem;
-    }
-    .nav-link {
-        font-size: 3.5rem;
-    }
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
 
